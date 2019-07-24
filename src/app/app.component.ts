@@ -11,8 +11,8 @@ export class AppComponent {
   SubHeading='Chennai';
 
 links:NavigationLinks[]=[
-        {text:'Home',links:'home.html'},
-        {text:'Catalog',links:'cat.html'},
-        {text:'Payment',links:'pmt.html'},
-        {text:'Contact',links:'contact.html'}];
+        {text:'Home',links:'/search'},
+        {text:'Catalog',links:'/tourshow'}];
+        // {text:'Payment',links:'pmt.html'},
+        // {text:'Contact',links:'contact.html'}];
 }

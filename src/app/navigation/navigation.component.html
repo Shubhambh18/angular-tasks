@@ -2,9 +2,12 @@
 <ul>
 
     <li *ngFor = "let eachLink of linkList">
+        <a [routerLink]="[eachLink.links]">
+                {{eachLink.text}}
 
-        <a href= {{eachLink.links}}>
+        </a> </li>
+        <!-- <a href= {{eachLink.links}} >
             
-            {{eachLink.text}}</a> </li>
+            {{eachLink.text}}</a> </li> -->
 
-</ul>
+</ul>   
