@@ -1,0 +1,11 @@
+{
+"tours" : [
+
+    
+        {"id":1,"tourName":"Pondy","price":4500},
+        {"id":2,"tourName":"Tada","price":5000},
+        {"id":3,"tourName":"vandalur","price":3500},
+        {"id":4,"tourName":"Chennai","price":4000}
+
+]
+}
